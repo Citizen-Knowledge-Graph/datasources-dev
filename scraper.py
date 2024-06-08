@@ -48,6 +48,11 @@ def extract_program_details(url):
     name_tag = soup.find('h1', class_='title')
     program_details["name"] = name_tag.get_text(strip=True) if name_tag else "No Name Found"
 
+    # fetch the funding program metadata
+    metadata = soup.find("dl", class_="grid-modul--two-elements document-info-fundingprogram")
+    for header, content in zip(metadata.find_all('dt'), metadata.find_all('dd')):
+        program_details[header.get_text(strip=True).replace(':', '')] = content.get_text("\n", strip=True)
+
     tab_names = [tab_h2.get_text().lower().strip() for tab_h2 in soup.find_all("h2", class_="horizontal--tab-opener")]
 
     if tab_names:
