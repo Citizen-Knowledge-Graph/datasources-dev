@@ -3,16 +3,16 @@
 ## Install
 ### Basic Requirements
 #### Python Version
-I recommend using _pyenv_ to install a fitting python version. To install pyenv, please follow allong [this documentation] (https://github.com/pyenv/pyenv?tab=readme-ov-file#installation) 
+I recommend using _pyenv_ to install a fitting python version. To install pyenv, please follow allong [this documentation](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation) 
 
-After installing pyenv, please remember to set up the suggested [python build environment] (https://github.com/pyenv/pyenv/wiki#suggested-build-environment) 
+After installing pyenv, please remember to set up the suggested [python build environment](https://github.com/pyenv/pyenv/wiki#suggested-build-environment) 
 
 After installing pyenv, you can install a fitting python version:
 ```bash
 pyenv install 3.12
 ```
 #### Poetry
-We use Python-Poetry for python virtual environment management. Please follow [this guide] (https://python-poetry.org/docs/#installation) to install Poetry.
+We use Python-Poetry for python virtual environment management. Please follow [this guide](https://python-poetry.org/docs/#installation) to install Poetry.
 
 ### Setting Up Working Environment
 Using pyenv, we can set the used python version in the working directory and install all required python packages.
