@@ -26,6 +26,18 @@ def get_program_links(url, BASE_URL):
     
     return links
 
+def extract_text_with_newlines(element):
+    texts = []
+
+    def recursive_extract_text(elem):
+        if isinstance(elem, str):
+            texts.append(elem.string.strip())
+        if hasattr(elem, 'children'):
+            for child in elem.children:
+                recursive_extract_text(child)
+
+    recursive_extract_text(element[0])
+    return "\n".join(filter(None, texts))
 
 def extract_program_details(url):
     response = requests.get(url)
@@ -38,12 +50,16 @@ def extract_program_details(url):
 
     tab_names = [tab_h2.get_text().lower().strip() for tab_h2 in soup.find_all("h2", class_="horizontal--tab-opener")]
 
-    articles = soup.find_all("article", class_="content--tab-text")
-    for i in range(len(articles)):
-        tab_content = []
-        for child in articles[i].descendants:
-            if child.name in ['p', 'h3']:
-                tab_content.append(child.get_text(strip=True))
-        program_details[tab_names[i]] = "\n".join(tab_content)
+    if tab_names:
+        articles = soup.find_all("article", class_="content--tab-text")
+        for i in range(len(articles)):
+            tab_content = []
+            for child in articles[i].descendants:
+                if child.name in ['p', 'h3']:
+                    tab_content.append(child.get_text(strip=True))
+            program_details[tab_names[i]] = "\n".join(tab_content)
+
+    else:
+        program_details["description"] = extract_text_with_newlines(soup.select('div[class*="container content--main"]'))
 
     return program_details
