@@ -31,6 +31,9 @@ def scrape_all_links_from_folder(folder_path):
             links = get_program_links_from_file(file_path)
             all_links.extend(links)
 
+    # deduplicate and sort the list
+    all_links = sorted(list(set(all_links)))
+
     return all_links
 
 
