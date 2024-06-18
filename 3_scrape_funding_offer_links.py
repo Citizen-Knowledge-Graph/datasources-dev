@@ -82,8 +82,8 @@ def main():
     scraped_data_list = scrape_urls(urls, base_url)
 
     # Save the scraped data to a JSON file
-    with open("scraped_data.json", "w") as outfile:
-        json.dump(scraped_data_list, outfile, indent=4)
+    with open("scraped_data.json", "w", encoding="utf-8") as outfile:
+        json.dump(scraped_data_list, outfile, indent=4, ensure_ascii=False)
 
     print(f"Data scraped and saved for {len(scraped_data_list)} URLs.")
 

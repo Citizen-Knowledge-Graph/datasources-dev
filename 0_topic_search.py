@@ -3,6 +3,7 @@ import json
 from itertools import product
 import string
 import time
+import os
 
 
 def generate_search_terms(min_length, max_length):
@@ -37,13 +38,30 @@ def fetch_suggestions(term):
     return response.json()
 
 
+def append_to_json_file(filename, new_data):
+    if not os.path.isfile(filename):
+        # If file does not exist, create it and write the new data as a list
+        with open(filename, 'w') as f:
+            json.dump([new_data], f, ensure_ascii=False, indent=4)
+    else:
+        # If file exists, read the existing data, append the new data, and write it back
+        with open(filename, 'r') as f:
+            data = json.load(f)
+        data.append(new_data)
+        with open(filename, 'w') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+
+
 def main():
     min_length = 2
     max_length = 4
     search_terms = generate_search_terms(min_length, max_length)
     results = []
 
-    for term in search_terms:
+    print(f"Generated {len(search_terms):,} search terms.")
+    print(f"Estimated time to complete: {len(search_terms) / 60 / 60:,.2f} hours.")
+
+    for i, term in enumerate(search_terms):
         try:
             suggestions = fetch_suggestions(term)
             if suggestions["suggestions"]:  # Checking if suggestions are not empty
@@ -55,8 +73,10 @@ def main():
         except KeyError:
             print(f"No suggestions found for '{term}'.")
 
-    with open("suggestions.json", "w") as f:
-        json.dump(results, f, ensure_ascii=False, indent=4)
+        # append intermediate results
+        if (i + 1) % 10 == 0:
+            print(f"Processed {i + 1} search terms. Saving intermediate results.")
+            append_to_json_file("suggestions.json", results)
 
 
 if __name__ == "__main__":
