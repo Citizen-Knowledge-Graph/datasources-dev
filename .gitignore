@@ -1,8 +1,1 @@
-# intellij
 .idea/
-
-# data files
-html_files/
-program_links.json
-scraped_data.json
-suggestions.json
