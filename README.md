@@ -21,7 +21,11 @@ Data sources to potentially harvest for FörderFunke.
 ### Federal state portals
 - Hessen
   - https://verwaltungsportal.hessen.de
-
+- Bremen
+  - https://www.service.bremen.de/dienstleistungen-1464  
+- Bund
+  - https://servicesuche.bund.de
+   
 ### (Further) education
 - vhs-Kursfinder
   - https://www.volkshochschule.de/kursfinder.php
@@ -45,3 +49,5 @@ Data sources to potentially harvest for FörderFunke.
 ### Other
 - Wikidata: for various data points like the Amtlicher Gemeindeschlüssel (AGS) or the official websites of municipalities 
   - https://query.wikidata.org
+- OZG
+  - https://informationsplattform.ozg-umsetzung.de/iNG/app/intro
