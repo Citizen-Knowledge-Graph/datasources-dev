@@ -2,6 +2,7 @@ import csv
 import os
 
 directory = "data/1"
+# directory = "data/ars00"
 
 dict = {}
 
@@ -27,6 +28,7 @@ for filename in files:
 
 result_list = list(dict.keys())
 
+# data/ars00/distinct_id-lbs.csv
 with open("data/2/distinct_id-lbs.csv", mode="w", newline="", encoding="utf-8") as file:
     writer = csv.writer(file)
     for id in result_list:
