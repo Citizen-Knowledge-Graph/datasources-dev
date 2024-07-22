@@ -10,6 +10,7 @@ arbeitslosengeld: arbeitslosigkeit
 bildung-und-teilhabe: arbeitslosigkeit, sozialhilfe-grundsicherung, wohnen, schule-studium-ausbildung, leistungen-fuer-familien, migration-asyl
 >bildung-und-teilhabe-bei-bezug-von-kinderzuschlag
 99107032017006
+bildung-und-teilhabe
 >bildung-und-teilhabe-bei-bezug-von-wohngeld
 99107032017005
 
