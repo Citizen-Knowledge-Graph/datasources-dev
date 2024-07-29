@@ -1,0 +1,100 @@
+# Persönliche Angaben
+
+- Wie lautet Ihr Geburtsdatum?
+Tag, Monat, Jahr
+
+- Welche Staatsbürgerschaft haben Sie?
+Deutsch
+EU
+Drittstaat (Nicht EU)
+
+- Sind Sie in Deutschland aufenthaltsberechtigt?
+Ja
+Nein
+
+- Wo ist Ihr tatsächlicher Aufenthaltsort an dem Sie erreichbar sind?
+außerhalb Deutschlands
+innerhalb Deutschlands
+
+
+# Kinder
+
+- Haben Sie ein oder mehrere Kinder?
+Ja
+Nein
+
+- Haben Sie Kinder unter 18 Jahren?
+Ja
+Nein
+
+- Haben Sie Kinder zwischen 18-25 Jahren?
+Ja
+Nein
+
+- Haben Sie Kinder zwischen 18 und 25 Jahren, die sich noch in Schule, Ausbildung oder Studium befinden?
+Ja
+Nein
+
+- Beziehen Sie Kindergeld für ein oder mehrere Kinder?
+Ja
+Nein
+
+
+# Erwerbstätigkeit
+
+- Sind Sie erwerbsfähig und können täglich mindestens 3 Stunden arbeiten?
+ja
+nein, dauerhaft erwerbsunfähig (über 6 Monate)
+nein, temporär erwerbsunfähig (weniger als 6 Monate)
+
+- Wie ist Ihre berufliche Situation?
+selbständig in einer Beschäftigung von mehr als 15 Stunden pro Woche
+berufstätig in einer sozialversicherungspflichtigen Beschäftigung
+arbeitslos
+Schule/Ausbildung/Studium
+Bundesfreiwilligendienst
+Regelaltersrente/Pension
+Elternzeit
+
+- Wie erzielen Sie Ihr Einkommen? (Mehrfachnennung möglich)
+selbstständige Arbeit in einer Beschäftigung von mehr als 15 Stunden pro Woche
+sozialversicherungspflichtige Beschäftigung
+Arbeitslosengeld
+Bürgergeld (früher ALG II)
+Ausbildungsvergütung
+BAföG
+Regelaltersrente
+Elterngeld
+Mutterschaftsgeld
+Wohngeld
+Sonstige
+
+- Wie beschreiben Sie das Einkommen Ihrer Familie?
+Die Familie hat ein monatliches Brutto-Einkommen von mindestens 900 Euro (Gemeinsam erziehend) bzw. 600 Euro (Alleinerziehende)
+Die Familie hat kein monatliches Brutto-Einkommen von mindestens 900 Euro (Gemeinsam erziehend) bzw. 600 Euro (Alleinerziehende)
+
+
+# Lebenssituation
+
+- Wie ist Ihre Lebenssituation?
+alleinlebend
+gemeinsam lebend (Ehe, Partnerschaft, eingetragene Lebenspartnerschaft), ggf. mit Kindern
+alleinerziehend mit mind. einem Kind
+
+- Befinden Sie sich in einer sozial schwierigen Lebenslage?
+Ja
+Nein
+
+
+# Gesundheit
+- Haben Sie eine Krankenversicherung?
+Ja
+Nein
+
+- Haben Sie eine Pflegeversicherung?
+Ja
+Nein
+
+- Sind Sie pflegebedürftig?
+Ja
+Nein
