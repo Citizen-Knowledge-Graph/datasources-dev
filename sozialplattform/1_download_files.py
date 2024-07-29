@@ -1,3 +1,4 @@
+import json
 import requests
 
 with open("by-leistung.txt", "r", encoding='utf-8') as file:
@@ -21,3 +22,13 @@ for i in range(len(lines)):
         response = requests.get(leikaServiceUrl)
         with open("data/1/" + leikaId + ".json", "wb") as file:
             file.write(response.content)
+
+        pvogUrl = "https://public.demo.pvog.cloud-bdc.dataport.de/suchdienst/api/v3/servicedescriptions/leikaid"
+        ars = "00"
+        response = requests.get(pvogUrl, params={"leikaIds": leikaId, "ars": ars})
+        content = response.json()["content"]
+        if len(content) > 0:
+            with open("data/1/" + leikaId + "_pvog.json", "w") as file:
+                file.write(json.dumps(content[0], indent=4))
+        else:
+            print("No PVOG json for LeikaId " + leikaId + " and ARS " + ars)

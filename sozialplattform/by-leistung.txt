@@ -6,6 +6,7 @@
 arbeitslosengeld: arbeitslosigkeit
 >arbeitslosengeld-antrag
 99038001017000
+00
 
 bildung-und-teilhabe: arbeitslosigkeit, sozialhilfe-grundsicherung, wohnen, schule-studium-ausbildung, leistungen-fuer-familien, migration-asyl
 >bildung-und-teilhabe-bei-bezug-von-kinderzuschlag
@@ -27,26 +28,32 @@ pass-fuer-geringverdienende: arbeitslosigkeit, sozialhilfe-grundsicherung, migra
 arbeitsgelegenheiten: arbeitslosigkeit
 >arbeitsgelegenheiten-antrag
 99007032203000
+00
 
 aktivierungs-und-vermittlungsgutschein-avgs: arbeitslosigkeit
 >aktivierungs-und-vermittlungsgutschein-antrag
 99007009027001
+00
 
 einstiegsgeld: arbeitslosigkeit
 >einstiegsgeld-antrag
 99007030017000
+00
 
 foerderung-aus-dem-vermittlungsbudget:arbeitslosigkeit
 >foerderung-aus-dem-vermittlungsbudget-antrag
 99007006017001
+00
 
 foerderung-schwer-zu-erreichender-junger-menschen: arbeitslosigkeit, schule-studium-ausbildung
 >foerderung-schwer-zu-erreichender-junger-menschen-antrag
 99007035017000
+00
 
 freie-foerderung: arbeitslosigkeit
 >freie-foerderung-antrag
 99007034017000
+00
 
 kommunale-eingliederungsleistungen: arbeitslosigkeit, leistungen-fuer-familien
 >kommunale-eingliederungsleistungen-antrag
@@ -55,16 +62,19 @@ kommunale-eingliederungsleistungen: arbeitslosigkeit, leistungen-fuer-familien
 eingliederung-von-selbstaendigen: arbeitslosigkeit
 >eingliederung-von-selbstaendigen-antrag
 99007031017000
+00
 
 ausgleichsabgabe-bei-nichtbeschaeftigung-von-schwerbehinderten: arbeitslosigkeit
 
 eingliederung-von-langzeitarbeitslosen: arbeitslosigkeit
 >eingliederung-von-langzeitarbeitslosen-antrag
 99007033017000
+00
 
 teilhabe-am-arbeitsmarkt: arbeitslosigkeit
 >teilhabe-am-arbeitsmarkt-antrag
 99007036017000
+00
 
 hilfe-zum-lebensunterhalt: sozialhilfe-grundsicherung, leistungen-fuer-familien, gesundheit-pflege
 >hilfe-zum-lebensunterhalt-antrag
@@ -85,6 +95,7 @@ wohnberechtigungsschein-wbs: sozialhilfe-grundsicherung, wohnen, schule-studium-
 uebernahme-von-mietrueckstaenden: sozialhilfe-grundsicherung, wohnen
 >uebernahme-von-mietrueckstaenden-SGBII-antrag
 99107042068001
+uebernahme-von-mietrueckstaenden
 >uebernahme-von-mietrueckstaenden-SGBXII-antrag
 99107042068002
 
@@ -101,18 +112,22 @@ bafoeg: schule-studium-ausbildung
 berufsausbildungsbeihilfe-bab: schule-studium-ausbildung
 >BAB-antrag
 99007004017000
+00
 
 kindergeld: leistungen-fuer-familien
 >kindergeld-antrag
 99041008017000
+00
 
 kinderzuschlag: leistungen-fuer-familien
 >kinderzuschlag-antrag
 99107016017000
+00
 
 familienpass: leistungen-fuer-familien
 >familienpass-antrag
 99107046000000
+00
 
 leistungen-nach-asylblg: migration-asyl
 >asylblg-antrag
