@@ -3,7 +3,7 @@
 # > antrag: https://sozialplattform.de/leistung/[...]
 # LeikaId via 0_extract_leika_ids.py output + manual
 
-arbeitslosengeld: arbeitslosigkeit
++arbeitslosengeld: arbeitslosigkeit
 >arbeitslosengeld-antrag
 99038001017000
 00
@@ -14,8 +14,20 @@ bildung-und-teilhabe: arbeitslosigkeit, sozialhilfe-grundsicherung, wohnen, schu
 bildung-und-teilhabe
 >bildung-und-teilhabe-bei-bezug-von-wohngeld
 99107032017005
++bildung-und-teilhabe
+>bildung-und-teilhabe-bei-bezug-von-buergergeld
+99107032017007
+bildung-und-teilhabe
+>bildung-und-teilhabe-bei-bezug-von-grundsicherung-im-alter-und-bei-erwerbsminderung
+99107032017003
+bildung-und-teilhabe
+>bildung-und-teilhabe-bei-bezug-von-hilfe-zum-lebensunterhalt
+99107032017002
+bildung-und-teilhabe
+>bildung-und-teilhabe-bei-bezug-von-leistungen-nach-asylbewerberleistungsgesetz
+99107032017004
 
-buergergeld: arbeitslosigkeit, leistungen-fuer-familien
++buergergeld: arbeitslosigkeit, leistungen-fuer-familien
 >buergergeld-antrag
 99107108017000
 
@@ -76,11 +88,11 @@ teilhabe-am-arbeitsmarkt: arbeitslosigkeit
 99007036017000
 00
 
-hilfe-zum-lebensunterhalt: sozialhilfe-grundsicherung, leistungen-fuer-familien, gesundheit-pflege
++hilfe-zum-lebensunterhalt: sozialhilfe-grundsicherung, leistungen-fuer-familien, gesundheit-pflege
 >hilfe-zum-lebensunterhalt-antrag
 99107012017000
 
-grundsicherung-im-alter-und-bei-erwerbsminderung: sozialhilfe-grundsicherung, alter-ruhestand
++grundsicherung-im-alter-und-bei-erwerbsminderung: sozialhilfe-grundsicherung, alter-ruhestand
 >grundsicherung-im-alter-antrag
 99107009017000
 
@@ -103,23 +115,23 @@ bestattungskostenhilfe: sozialhilfe-grundsicherung, leistungen-fuer-familien, al
 >bestattungskostenhilfe-antrag
 99101014080000
 
-wohngeld: wohnen, schule-studium-ausbildung, alter-ruhestand
++wohngeld: wohnen, schule-studium-ausbildung, alter-ruhestand
 >wohngeld_antrag
 99107023037000
 
-bafoeg: schule-studium-ausbildung
++bafoeg: schule-studium-ausbildung
 
-berufsausbildungsbeihilfe-bab: schule-studium-ausbildung
++berufsausbildungsbeihilfe-bab: schule-studium-ausbildung
 >BAB-antrag
 99007004017000
 00
 
-kindergeld: leistungen-fuer-familien
++kindergeld: leistungen-fuer-familien
 >kindergeld-antrag
 99041008017000
 00
 
-kinderzuschlag: leistungen-fuer-familien
++kinderzuschlag: leistungen-fuer-familien
 >kinderzuschlag-antrag
 99107016017000
 00
