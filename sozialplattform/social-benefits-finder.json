@@ -1,0 +1,1267 @@
+{
+  "categories": [
+    {
+      "title": "Persönliche Angaben",
+      "questions": [
+        {
+          "questionKey": "Geburtsdatum",
+          "questionText": "Wie lautet Ihr Geburtsdatum?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "date",
+          "answerOptions": []
+        },
+        {
+          "questionKey": "Staatsbürgerschaft",
+          "questionText": "Welche Staatsbürgerschaft haben Sie?",
+          "placeholder": "",
+          "noteCitizen": "Welches Land steht auf Ihrem Pass oder Ausweis? Meistens ist das Deutschland. Mitgliedstaaten der Europäischen Union sind: Belgien, Bulgarien, Dänemark, Deutschland, Estland, Finnland, Frankreich, Griechenland, Irland, Italien, Kroatien, Lettland, Litauen, Luxemburg, Malta, die Niederlande, Österreich, Polen, Portugal, Rumänien, Schweden, die Slowakei, Slowenien, Spanien, die Tschechische Republik, Ungarn und Zypern.\r\n",
+          "answerType": "singleSelect",
+          "answerOptions": [
+            {
+              "value": "ger",
+              "label": "Deutsch"
+            },
+            {
+              "value": "eu",
+              "label": "EU"
+            },
+            {
+              "value": "3rd",
+              "label": "Drittstaat (Nicht-EU)"
+            }
+          ]
+        },
+        {
+          "questionKey": "Aufenthalt",
+          "questionText": "Sind Sie in Deutschland aufenthaltsberechtigt?",
+          "placeholder": "",
+          "noteCitizen": "Wenn Sie Ausländer:in sind und eine Aufenthaltsberechtigung haben (diese wurden zwischen 1991 und 2004 ausgestellt) oder eine Niederlassungsberechtigung (seit 2005), klicken Sie „ja“ an. Wenn Sie das nicht haben, klicken Sie „nein“ an.",
+          "answerType": "boolean",
+          "answerOptions": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "questionText": "Wo ist Ihr tatsächlicher Aufenthaltsort an dem Sie erreichbar sind?",
+          "placeholder": "",
+          "noteCitizen": "Das ist der Ort, wo Sie sich wirklich aufhalten. Es ist egal, ob Sie dort gemeldet sind oder das Recht haben, hier zu leben. Das kann auch eine Pflegeeinrichtung, ein Frauenhaus, ein Stadtteil oder Ähnliches sein.",
+          "answerType": "singleSelect",
+          "answerOptions": [
+            {
+              "value": "außerhalb",
+              "label": "außerhalb Deutschlands"
+            },
+            {
+              "value": "innerhalb",
+              "label": "innerhalb Deutschlands"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Kinder",
+      "questions": [
+        {
+          "questionKey": "Kinder",
+          "questionText": "Haben Sie ein oder mehrere Kinder?",
+          "placeholder": "",
+          "noteCitizen": "Bitte geben Sie an, ob Kinder in Ihrem Haushalt leben.",
+          "answerType": "boolean",
+          "answerOptions": []
+        },
+        {
+          "questionKey": "Kinder_unter_18",
+          "questionText": "Haben Sie Kinder unter 18 Jahren?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "boolean",
+          "answerOptions": []
+        },
+        {
+          "questionKey": "Kinder_18-25",
+          "questionText": "Haben Sie Kinder zwischen 18-25 Jahren?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "boolean",
+          "answerOptions": []
+        },
+        {
+          "questionKey": "Kinder_in_Ausbildung",
+          "questionText": "Haben Sie Kinder zwischen 18 und 25 Jahren, die sich noch in Schule, Ausbildung oder Studium befinden?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "boolean",
+          "answerOptions": []
+        },
+        {
+          "questionKey": "Kindergeld",
+          "questionText": "Beziehen Sie Kindergeld für ein oder mehrere Kinder?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "boolean",
+          "answerOptions": []
+        }
+      ]
+    },
+    {
+      "title": "Erwerbstätigkeit",
+      "questions": [
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "questionText": "Sind Sie erwerbsfähig und können täglich mindestens 3 Stunden arbeiten?",
+          "placeholder": "",
+          "noteCitizen": "Sie sind erwerbsfähig, wenn Sie mindestens 3 Stunden am Tag normal arbeiten können. Wenn Sie es wegen längerer Krankheit oder Behinderung nicht schaffen, so lange zu arbeiten, geben Sie „nein“ an.",
+          "answerType": "singleOption",
+          "answerOptions": [
+            {
+              "value": "ja",
+              "label": "ja"
+            },
+            {
+              "value": "nein >6 Monate",
+              "label": "nein, dauerhaft erwerbsunfähig (über 6 Monate)"
+            },
+            {
+              "value": "nein <6 Monate",
+              "label": "nein, temporär erwerbsunfähig (weniger als 6 Monate)"
+            }
+          ]
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "questionText": "Wie ist Ihre berufliche Situation?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "singleOption",
+          "answerOptions": [
+            {
+              "value": "selbständig",
+              "label": "selbständig in einer Beschäftigung von mehr als 15 Stunden pro Woche"
+            },
+            {
+              "value": "soz",
+              "label": "berufstätig in einer sozialversicherungspflichtigen Beschäftigung"
+            },
+            {
+              "value": "ALG",
+              "label": "arbeitslos"
+            },
+            {
+              "value": "Ausbildung",
+              "label": "Schule/Ausbildung/Studium"
+            },
+            {
+              "value": "BFD",
+              "label": "Bundesfreiwilligendienst"
+            },
+            {
+              "value": "Rente",
+              "label": "Regelaltersrente/Pension"
+            },
+            {
+              "value": "Eltern",
+              "label": "Elternzeit"
+            }
+          ]
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "questionText": "Wie erzielen Sie Ihr Einkommen? (Mehrfachnennung möglich)",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "multiOption",
+          "answerOptions": [
+            {
+              "value": "selbstständig",
+              "label": "selbstständige Arbeit in einer Beschäftigung von mehr als 15 Stunden pro Woche"
+            },
+            {
+              "value": "soz",
+              "label": "sozialversicherungspflichtige Beschäftigung"
+            },
+            {
+              "value": "ALG",
+              "label": "Arbeitslosengeld"
+            },
+            {
+              "value": "ALG II",
+              "label": "Bürgergeld (früher ALG II)"
+            },
+            {
+              "value": "Ausbildung",
+              "label": "Ausbildungsvergütung"
+            },
+            {
+              "value": "BAFöG",
+              "label": "BAföG"
+            },
+            {
+              "value": "Rente",
+              "label": "Regelaltersrente"
+            },
+            {
+              "value": "Elterngeld",
+              "label": "Elterngeld"
+            },
+            {
+              "value": "Mutterschaftsgeld",
+              "label": "Mutterschaftsgeld"
+            },
+            {
+              "value": "Wohngeld",
+              "label": "Wohngeld"
+            },
+            {
+              "value": "Sonstige",
+              "label": "Sonstige"
+            }
+          ]
+        },
+        {
+          "questionKey": "Einkommen_Familie",
+          "questionText": "Wie beschreiben Sie das Einkommen Ihrer Familie?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "singleOption",
+          "answerOptions": [
+            {
+              "value": "Monatsbrutto >900/600",
+              "label": "Die Familie hat ein monatliches Brutto-Einkommen von mindestens 900 Euro (Gemeinsam erziehend) bzw. 600 Euro (Alleinerziehende)"
+            },
+            {
+              "value": "Monatsbrutto <900/600",
+              "label": "Die Familie hat kein monatliches Brutto-Einkommen von mindestens 900 Euro (Gemeinsam erziehend) bzw. 600 Euro (Alleinerziehende)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lebenssituation",
+      "questions": [
+        {
+          "questionKey": "Lebenssituation",
+          "questionText": "Wie ist Ihre Lebenssituation?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "singleOption",
+          "answerOptions": [
+            {
+              "value": "allein",
+              "label": "alleinlebend"
+            },
+            {
+              "value": "Gemeinschaft",
+              "label": "gemeinsam lebend (Ehe, Partnerschaft, eingetragene Lebenspartnerschaft), ggf. mit Kindern"
+            },
+            {
+              "value": "allein mit Kind",
+              "label": "alleinerziehend mit mind. einem Kind"
+            }
+          ]
+        },
+        {
+          "questionKey": "Lebenslage",
+          "questionText": "Befinden Sie sich in einer sozial schwierigen Lebenslage?",
+          "placeholder": "",
+          "noteCitizen": "Schwierige Lebenslagen oder Notsituationen sind zum Beispiel: Sie haben keine Wohnung mehr (Obdachlosigkeit), Sie haben ein Suchtproblem, Sie wissen nicht, wovon Sie leben sollen oder wurden ein Opfer von Gewalt in der Familie.",
+          "answerType": "boolean",
+          "answerOptions": []
+        }
+      ]
+    },
+    {
+      "title": "Gesundheit",
+      "questions": [
+        {
+          "questionKey": "Krankenversicherung",
+          "questionText": "Haben Sie eine Krankenversicherung?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "boolean",
+          "answerOptions": []
+        },
+        {
+          "questionKey": "Pflegeversicherung",
+          "questionText": "Haben Sie eine Pflegeversicherung?",
+          "placeholder": "",
+          "noteCitizen": "",
+          "answerType": "boolean",
+          "answerOptions": []
+        },
+        {
+          "questionKey": "Pflege",
+          "questionText": "Sind Sie pflegebedürftig?",
+          "placeholder": "",
+          "noteCitizen": "Die Pflegebedürftigkeit wird von einem Gutachter des Medizinischen Dienstes der Krankenversicherung (MDK) festgestellt. Nach der Prüfung entscheidet die Pflegekasse über Pflegebedürftigkeit und Pflegegrad.",
+          "answerType": "boolean",
+          "answerOptions": []
+        }
+      ]
+    }
+  ],
+  "services": [
+    {
+      "serviceTitle": "Hilfe zum Lebensunterhalt",
+      "pageUuid": "5728c5d5-5f14-4416-b46a-2a672e33bf24",
+      "alias": "/inhalt/hilfe-zum-lebensunterhalt",
+      "claimBasis": "<p><span><span><span><span><span><span>Die „Hilfe zum Lebensunterhalt“ richtet sich an Menschen, die eine Zeit lang nicht oder nur wenig arbeiten können. Sie dient dazu grundlegende Bedürfnisse wie Essen, Kleidung und Miete zu bezahlen. Hilfe zum Lebensunterhalt erhalten Personen, für die andere staatliche Leistungen, wie etwa Rente oder Bürgergeld (früher ALG II), nicht infrage kommen.</span></span></span></span></span></span></p>\r\n",
+      "ruleViolation": "<p>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. Einen Anspruch auf Hilfe zum Lebensunterhalt haben erwerbsunfähige Menschen, die ihren Lebensunterhalt nicht aus eigenen Mitteln bestreiten können, weil sie z.B. längerfristig erkrankt sind oder wegen Erwerbsminderung nur eine geringe Rente bekommen. Es dient dazu, das Existenzminimum zu sichern, wenn weder ein Anspruch auf Bürgergeld (früher ALG II) noch auf Grundsicherung im Alter und bei Erwerbsminderung besteht.</p>\r\n",
+      "rules": [
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Pensionable",
+          "operator": "equals",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "nein >6 Monate",
+          "rules": []
+        },
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "type": "singleOption",
+          "operator": "equals",
+          "expectedValue": "nein <6 Monate",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "ALG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG II",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Kindergeld",
+      "pageUuid": "df0494cd-e395-46af-a4ef-f68bb7e30976",
+      "alias": "/inhalt/kindergeld",
+      "claimBasis": "<p><span><span><span>Das Kindergeld ist eine staatliche Förderung, die Eltern und Erziehungsberechtigte ab der Geburt des ersten Kindes beantragen können. Damit soll die Grundversorgung eines Kindes gesichert werden. Kindergeld wird mindestens bis zum 18. und höchstens bis zum 25. Geburtstag eines Kindes gezahlt. Alle Familien erhalten Kindergeld, unabhängig davon, wie viel sie verdienen.</span></span></span></p>\r\n",
+      "ruleViolation": "<p><span><span><span><span><span>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. </span></span></span></span></span>Wenn Ihr Kind unter 18 Jahren alt ist, haben Sie Anspruch auf Kindergeld, wenn Sie Ihren Wohnsitz oder gewöhnlichen Aufenthalt in Deutschland oder einem anderen Land der EU, Norwegen, Lichtenstein, Island oder der Schweiz haben und Ihr Kind in Ihrem Haushalt lebt. Soweit Ihr Kind zwischen 18 und 25 Jahre alt ist, ist zusätzlich erforderlich, dass es eine Ausbildung oder ein Studium absolviert, sich zwischen Schulabschluss und Ausbildungs- oder Studienbeginn in einer Übergangszeit befindet oder sich ernsthaft um eine Ausbildung bemüht.</p>\r\n",
+      "rules": [
+        {
+          "questionKey": "Kinder",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Pensionable",
+          "operator": "equals",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Kinder",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "connectionOperator": "OR",
+          "rules": [
+            {
+              "questionKey": "Kinder_18-25",
+              "type": "boolean",
+              "operator": "equals",
+              "expectedValue": "true",
+              "rules": []
+            },
+            {
+              "questionKey": "Kinder_unter_18",
+              "type": "boolean",
+              "operator": "equals",
+              "expectedValue": "true",
+              "rules": []
+            }
+          ]
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "BFD",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "BAFöG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        },
+        {
+          "questionKey": "Kindergeld",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "true",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Kinderzuschlag",
+      "pageUuid": "e09347b3-c06d-4e7f-9d01-8d9c16dd8cac",
+      "alias": "/inhalt/kinderzuschlag",
+      "claimBasis": "<p><span><span><span><span>Wenn Sie ein geringes Einkommen haben und Kindergeld beziehen, können Sie zusätzlich den Kinderzuschlag, abgekürzt auch KiZ genannt, beantragen. </span></span></span></span></p>\r\n",
+      "ruleViolation": "<p><span><span><span><span><span>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. </span></span></span></span></span>Der Kinderzuschlag ist ein Zuschlag zum Kindergeld für Eltern, die genug verdienen, um für sich selbst zu sorgen, das Einkommen aber nicht oder nur knapp für die gesamte Familie reicht. Einkommen und Vermögen der Eltern und des Kindes werden auf den Kinderzuschlag teilweise angerechnet und reduzieren die Höhe. Mit dem Kinderzuschlag sind weitere Vergünstigungen möglich, z. B. Bildungs- und Teilhabeleistungen für die Kinder oder eine Befreiung von den KiTa-Gebühren.</p>\r\n",
+      "rules": [
+        {
+          "questionKey": "Aufenthalt",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthalt",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Kinder",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Kinder",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Lebenssituation",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "allein",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_Familie",
+          "type": "singleOption",
+          "operator": "equals",
+          "expectedValue": "Monatsbrutto >900/600",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_Familie",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Monatsbrutto <900/600",
+          "rules": []
+        },
+        {
+          "connectionOperator": "OR",
+          "rules": [
+            {
+              "questionKey": "Kinder_18-25",
+              "type": "boolean",
+              "operator": "equals",
+              "expectedValue": "true",
+              "rules": []
+            },
+            {
+              "questionKey": "Kinder_unter_18",
+              "type": "boolean",
+              "operator": "equals",
+              "expectedValue": "true",
+              "rules": []
+            },
+            {
+              "connectionOperator": "AND",
+              "rules": [
+                {
+                  "questionKey": "Kinder_18-25",
+                  "type": "boolean",
+                  "operator": "equalsNot",
+                  "expectedValue": "false",
+                  "rules": []
+                },
+                {
+                  "questionKey": "Kinder_unter_18",
+                  "type": "boolean",
+                  "operator": "equalsNot",
+                  "expectedValue": "false",
+                  "rules": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionKey": "Kindergeld",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG II",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "BAföG",
+      "pageUuid": "d7939f67-ad5b-491c-9cd0-12b8a3b60b79",
+      "alias": "/inhalt/bafoeg",
+      "claimBasis": "<p><span><span><span>Mit dem Bundesausbildungsförderungsgesetz (BAföG) werden junge Menschen finanziell bei der Schulausbildung und dem Studium unterstützt. Es gibt zwei Arten von BAföG: das Schüler-BAföG und das Studenten-BAföG.  Schülerinnen und Schüler sowie Studierende können einen Zuschuss oder ein zinsloses Darlehen erhalten. Die Höhe der Förderung ist von den Lebensumständen der Antragstellerinnen und Antragsteller abhängig.  </span></span></span></p>\r\n",
+      "ruleViolation": "<p><span><span><span><span><span>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. </span></span></span></span></span>Es handelt sich um eine Ausbildungsförderung, die jungen Menschen ermöglichen soll, unabhängig von ihrer sozialen und wirtschaftlichen Situation eine Schul- bzw. Hochschulausbildung zu absolvieren. Sie kann für den eigenen Lebensunterhalt und für die Ausbildung verwendet werden.</p>\r\n",
+      "rules": [
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Age",
+          "operator": "lessOrEqualThan",
+          "expectedValue": "35",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Pensionable",
+          "operator": "equals",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Age",
+          "operator": "greaterOrEqualThan",
+          "expectedValue": "15",
+          "rules": []
+        },
+        {
+          "questionKey": "Lebenslage",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Krankenversicherung",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Krankenversicherung",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Pflegeversicherung",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Pflegeversicherung",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "nein >6 Monate",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "BFD",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equals",
+          "expectedValue": "Ausbildung",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "BAFöG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Bürgergeld",
+      "pageUuid": "b17f73d3-1ab9-4187-a982-e73959a68a0d",
+      "alias": "/inhalt/buergergeld",
+      "claimBasis": "<p>Das Bürgergeld (vorher ALG II) ist Teil der sogenannten Grundsicherung für Arbeitsuchende. Bürgergeld wird oft im Anschluss an das Arbeitslosengeld gezahlt, wenn weiterhin Unterstützung notwendig ist. Bürgergeld erhalten auch Personen, die noch nie gearbeitet oder ein geringes Einkommen haben. Für das Bürgergeld sind die Jobcenter zuständig.</p>\r\n",
+      "ruleViolation": "<p>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. Beim Bürgergeld (vorher ALG II), handelt es sich um eine Sozialleistung für Arbeitsuchende und Aufstocker des Arbeitslosengelds zur Sicherung des Lebensunterhalts. Arbeitsuchend können auch Arbeitnehmer und Selbständige sein. Voraussetzung ist, dass Sie mindestens 15 Jahre alt sind, jedoch die Altersgrenze für Ihre Rente noch nicht erreicht haben, und in der Lage sind, mindestens 3 Stunden täglich zu arbeiten. Zudem muss Ihr gewöhnlicher Aufenthalt in der Bundesrepublik Deutschland sein und Sie oder Mitglieder Ihrer Bedarfsgemeinschaft müssen hilfebedürftig sein.</p>\r\n",
+      "rules": [
+        {
+          "questionKey": "Aufenthalt",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Age",
+          "operator": "greaterOrEqualThan",
+          "expectedValue": "15",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Pensionable",
+          "operator": "equals",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthalt",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "nein >6 Monate",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Ausbildung",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "selbständig",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG II",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Wohngeld",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Arbeitslosengeld",
+      "pageUuid": "ba66d284-8e9d-41c5-9308-4aafb5e6c9ef",
+      "alias": "/inhalt/arbeitslosengeld",
+      "claimBasis": "<p><span><span>Das Arbeitslosengeld (ALG) sichert Sie sozial ab, wenn Sie Ihre Arbeit oder Ihren Ausbildungsplatz verlieren. Es ersetzt einen Teil Ihres fehlenden Einkommens, damit Sie weiterhin Ihren Lebensunterhalt bestreiten können. <span>Sie haben Anspruch auf diese Leistung, wenn Sie vor Ihrer Arbeitslosigkeit eine bestimmte Zeit pflichtversichert oder freiwillig versichert waren und monatlich Versicherungsbeiträge gezahlt haben.</span></span></span></p>\r\n",
+      "ruleViolation": "<p><span><span><span><span><span>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. </span></span></span></span></span>Für den Anspruch auf Arbeitslosengeld gelten im Wesentlichen diese Voraussetzungen:</p>\r\n\r\n<ul>\r\n\t<li>Sie erfüllen die Anwartschaftszeit. Das bedeutet meist: Sie waren in den 30 Monaten vor Arbeitslosmeldung mindestens 12 Monate versicherungspflichtig beschäftigt. Dabei können mehrere Beschäftigungen zusammengerechnet werden.</li>\r\n\t<li>Sie haben sich bei Ihrer Agentur für Arbeit arbeitslos gemeldet.</li>\r\n\t<li>Sie sind ohne Beschäftigung, können aber eine versicherungspflichtige Beschäftigung ausüben (mindestens 15 Stunden pro Woche).</li>\r\n\t<li>Sie suchen eine versicherungspflichtige Beschäftigung und arbeiten dabei mit der Agentur für Arbeit zusammen.</li>\r\n</ul>\r\n\r\n<p>Waren Sie häufig befristet beschäftigt, gilt unter bestimmten Voraussetzungen eine kürzere Anwartschaftszeit: Dann genügen mindestens 6 Monate versicherungspflichtiger Beschäftigung in den 30 Monaten vor Arbeitslosmeldung. Zu den Voraussetzungen gehört, dass die meisten Beschäftigungen auf bis zu 14 Wochen befristet waren.</p>\r\n",
+      "rules": [
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Pensionable",
+          "operator": "equals",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthalt",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthalt",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "type": "singleOption",
+          "operator": "equals",
+          "expectedValue": "ja",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "soz",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "selbständig",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "BFD",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Ausbildung",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equals",
+          "expectedValue": "ALG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "selbstständig",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "soz",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Mutterschaftsgeld",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Berufsausbildungsbeihilfe (BAB)",
+      "pageUuid": "d49dbd3d-3ef4-4946-a07b-4cdc2b1c776c",
+      "alias": "/inhalt/berufsausbildungsbeihilfe-bab",
+      "claimBasis": "<p><span><span>Berufsausbildungsbeihilfe (BAB) ist ein finanzieller Zuschuss für junge Menschen in ihrer ersten Berufsausbildung. Sie hilft zum Beispiel dabei, Miete, Lebensmittel oder Fahrtkosten zu bezahlen.</span></span></p>\r\n",
+      "ruleViolation": "<p><span><span><span><span><span>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. Sie müssen</span></span></span></span></span> bestimmte Voraussetzungen erfüllen, damit Sie Anspruch auf Berufsausbildungsbeihilfe haben. Einer der folgenden Fälle sollte auf Sie zutreffen, damit Ihr Antrag erfolgreich ist:</p>\r\n\r\n<ul>\r\n\t<li>Sie nehmen an einer berufsvorbereitenden Bildungsmaßnahme (BvB) teil – vielleicht auch, um sich nachträglich auf einen Hauptschulabschluss oder gleichwertigen Schulabschluss vorzubereiten.</li>\r\n\t<li>Sie machen eine betriebliche oder außerbetriebliche Berufsausbildung in einem anerkannten Ausbildungsberuf. Ihr Ausbildungsbetrieb ist zu weit von Ihren Eltern entfernt, um zuhause wohnen zu bleiben.</li>\r\n\t<li>Sie machen eine betriebliche oder außerbetriebliche Berufsausbildung in einem anerkannten Ausbildungsberuf. Außerdem sind Sie über 18 Jahre alt oder verheiratet beziehungsweise leben mit Ihrer Partnerin oder Ihrem Partner zusammen.</li>\r\n\t<li>Sie machen eine betriebliche oder außerbetriebliche Berufsausbildung in einem anerkannten Ausbildungsberuf. Sie haben mindestens ein Kind und leben nicht in der Wohnung Ihrer Eltern.</li>\r\n</ul>\r\n\r\n<p>Trifft einer der folgenden Fälle auf Sie zu, haben Sie keinen Anspruch auf finanzielle Unterstützung in Form von BAB:</p>\r\n\r\n<ul>\r\n\t<li>Sie machen eine schulische Ausbildung (zum Beispiel zur Physiotherapeutin beziehungsweise zum Physiotherapeut).</li>\r\n\t<li>Sie erhalten bereits Leistungen von einer anderen Behörde, die mit der BAB vergleichbar sind.</li>\r\n</ul>\r\n",
+      "rules": [
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Pensionable",
+          "operator": "equals",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Pflege",
+          "type": "boolean",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "BFD",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equals",
+          "expectedValue": "Ausbildung",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "BAFöG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Rente",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Wohngeld",
+      "pageUuid": "116c387f-af98-4883-aa9b-cb419afeb620",
+      "alias": "/wohngeld",
+      "claimBasis": "<p><span><span><span>Das „Wohngeld“ ist ein finanzieller Zuschuss zur Miete oder zu den Kosten, die entstehen, falls Sie ein Haus oder eine Eigentumswohnung besitzen. Um Wohngeld zu bekommen, müssen Sie einen Antrag stellen. Die Gemeindeverwaltung in Ihrer Stadt prüft den Antrag und gibt ihnen Bescheid, ob Sie Wohngeld erhalten.</span></span></span></p>\r\n",
+      "ruleViolation": "<p><span><span><span><span><span>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. </span></span></span></span></span>Wohngeld bekommen Personen mit wenig Einkommen. Bei Mieterinnen/Mietern wird von Mietzuschuss und bei Eigentümerinnen/Eigentümern, die in ihrem Haus wohnen, von Lastenzuschuss gesprochen. Wohngeld wird nur an Personen gezahlt, die keine Transferleistungen (wie z. B. Bürgergeld (früher ALG II), Sozialhilfe, Grundsicherung im Alter und bei Erwerbsminderung) bekommen, da bei Transferleistungen die Unterkunftskosten schon berücksichtigt werden.</p>\r\n",
+      "rules": [
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Age",
+          "operator": "greaterOrEqualThan",
+          "expectedValue": "15",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Pensionable",
+          "operator": "equals",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Ausbildung",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Wohngeld",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "BAFöG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG II",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Grundsicherung im Alter und bei Erwerbsminderung",
+      "pageUuid": "2ab08661-ec76-42f0-a41b-7468b159f07f",
+      "alias": "/inhalt/grundsicherung-im-alter-und-bei-erwerbsminderung",
+      "claimBasis": "<p><span><span><span><span>Sie sind im Rentenalter, aber Ihr Geld reicht nicht aus, um Ihren Lebensunterhalt zu bezahlen? Oder sind Sie zwar noch jünger, können aber aus gesundheitlichen Gründen dauerhaft nicht arbeiten? Dann können Sie die finanzielle „Grundsicherung im Alter und bei Erwerbsminderung“ beantragen.</span></span></span></span></p>\r\n",
+      "ruleViolation": "<p><span><span><span><span><span>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. </span></span></span></span></span>Grundsicherung im Alter und bei Erwerbsminderung können Sie als bedürftiger Mensch bekommen, wenn Sie entweder die Regelaltersgrenze - das ist der Zeitpunkt, an dem Sie die reguläre Altersrente beziehen können – erreicht haben oder mindestens 18 Jahre alt und dauerhaft voll erwerbsgemindert sind oder das Eingangs- und den Berufsbildungsbereich einer Werkstatt für behinderte Menschen durchlaufen oder in einem Ausbildungsverhältnis stehen, für welches Sie ein Budget für die Ausbildung erhalten. Sie müssen außerdem in Deutschland wohnen.</p>\r\n",
+      "rules": [
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Pensionable",
+          "operator": "equals",
+          "expectedValue": "true",
+          "rules": []
+        },
+        {
+          "questionKey": "Geburtsdatum",
+          "type": "date",
+          "modifier": "Age",
+          "operator": "greaterOrEqualThan",
+          "expectedValue": "15",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "type": "singleOption",
+          "operator": "equals",
+          "expectedValue": "nein >6 Monate",
+          "rules": []
+        },
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "ja",
+          "rules": []
+        },
+        {
+          "questionKey": "Erwerbsfähig_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "nein <6 Monate",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "Ausbildung",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "ALG",
+          "rules": []
+        },
+        {
+          "questionKey": "Beruf_neu",
+          "type": "singleOption",
+          "operator": "equals",
+          "expectedValue": "Rente",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "ALG",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "Ausbildung",
+          "rules": []
+        },
+        {
+          "questionKey": "Einkommen_neu",
+          "type": "multiOption",
+          "operator": "containsNot",
+          "expectedValue": "BAFöG",
+          "rules": []
+        }
+      ]
+    },
+    {
+      "serviceTitle": "Bildung und Teilhabe - bei Bezug von Bürgergeld",
+      "pageUuid": "239f5c83-17ea-4c97-8446-2d4c15fe750d",
+      "alias": "/inhalt/bildung-und-teilhabe",
+      "claimBasis": "<p><span>In Deutschland sollen Kinder, Jugendliche und junge Erwachsene die gleichen Chancen haben. Wichtige Voraussetzungen für Chancengleichheit sind Bildung und die Teilnahme am sozialen und kulturellen Leben. Deswegen fördert der Staat Leistungen zur Bildung und Teilhabe, auch Bildungs- und Teilhabepaket genannt.</span></p>",
+      "ruleViolation": "<p><span>Wahrscheinlich haben Sie keinen Anspruch auf diese Leistung. </span>Verschiedene Leistungen für Bildung und Teilhabe sollen Kindern und Jugendlichen aus bedürftigen Familien ermöglichen, besser am sozialen und kulturellen Leben in der Schule und Freizeit teilzunehmen. Die Leistungen können Sie zusätzlich zu anderen Leistungen, wie z.B. Bürgergeld (früher ALG II), Sozialhilfe, Kinderzuschlag oder Wohngeld, bekommen.</p>",
+      "rules": [
+        {
+          "questionKey": "Kinder",
+          "type": "boolean",
+          "operator": "equalsNot",
+          "expectedValue": "false",
+          "rules": []
+        },
+        {
+          "questionKey": "Lebenssituation",
+          "type": "singleOption",
+          "operator": "equalsNot",
+          "expectedValue": "allein",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equals",
+          "expectedValue": "innerhalb",
+          "rules": []
+        },
+        {
+          "questionKey": "Aufenthaltsort",
+          "type": "singleSelect",
+          "operator": "equalsNot",
+          "expectedValue": "außerhalb",
+          "rules": []
+        },
+        {
+          "connectionOperator": "OR",
+          "rules": [
+            {
+              "questionKey": "Kinder_18-25",
+              "type": "boolean",
+              "operator": "equals",
+              "expectedValue": "true",
+              "rules": []
+            },
+            {
+              "questionKey": "Kinder_unter_18",
+              "type": "boolean",
+              "operator": "equals",
+              "expectedValue": "true",
+              "rules": []
+            }
+          ]
+        },
+        {
+          "connectionOperator": "AND",
+          "rules": [
+            {
+              "questionKey": "Einkommen_neu",
+              "type": "multiOption",
+              "operator": "contains",
+              "expectedValue": "ALG II",
+              "rules": []
+            },
+            {
+              "questionKey": "Einkommen_neu",
+              "type": "multiOption",
+              "operator": "contains",
+              "expectedValue": "Wohngeld",
+              "rules": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
